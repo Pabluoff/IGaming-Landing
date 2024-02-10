@@ -69,7 +69,7 @@
         function updateProgramDate() {
             const programDateElement = document.getElementById('data');
 
-            // Obter a data atual no fuso horário do Brasil
+            // Obter a data atual no fuso horário do Brasil/SP
             const brazilTimeZone = 'America/Sao_Paulo';
             const now = luxon.DateTime.local().setZone(brazilTimeZone);
 
