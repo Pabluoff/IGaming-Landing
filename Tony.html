@@ -9,57 +9,29 @@
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
     <link rel="stylesheet" href="style.css">
-    <link rel="shortcut icon" href="img/logo.webp" type="image/x-icon">
+    <link rel="shortcut icon" href="img/mine-logo.PNG" type="image/x-icon">
     <title>Parabéns!</title>
-
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-QZN1WFV3ME"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-QZN1WFV3ME');
-    </script>
-    <!-- End  Google Tag Manager -->
-
-    <!-- Meta Pixel Code -->
-    <script>
-        !function (f, b, e, v, n, t, s) {
-            if (f.fbq) return; n = f.fbq = function () {
-                n.callMethod ?
-                    n.callMethod.apply(n, arguments) : n.queue.push(arguments)
-            };
-            if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
-            n.queue = []; t = b.createElement(e); t.async = !0;
-            t.src = v; s = b.getElementsByTagName(e)[0];
-            s.parentNode.insertBefore(t, s)
-        }(window, document, 'script',
-            'https://connect.facebook.net/en_US/fbevents.js');
-        fbq('init', '368009446083381');
-        fbq('track', 'PageView');
-    </script>
-    <noscript><img height="1" width="1" style="display:none"
-            src="https://www.facebook.com/tr?id=368009446083381&ev=PageView&noscript=1" /></noscript>
-    <!-- End Meta Pixel Code -->
 </head>
 
 <body>
     <div class="header">
-        Você e algumas pessoas próximas de <span id="cidade" class="city-name highlight"></span> foram selecionadas para
+        Você e algumas pessoas próximas de <span id="cidade" class="city-name highlight" style="color: #3da1ff;"></span>
+        foram selecionadas para
         participar até o dia <span id="data" class="program-date"></span>
     </div>
 
     <div class="home">
-        <img src="/img/logo.webp" alt="Imagem do Cassino" class="casino-image">
-        <h1 class="casino-title">APP 100% GRATIS!</h1>
-        <p class="access-paragraph">SEU ACESSO FOI <span class="highlight">LIBERADO</span></p>
-        <img src="/img/pgggg-1-1024x512-1.png" alt="" class="img-casino">
-        <p class="text">Descobrimos a maior falha no <br> <span class="highlight">algoritmo</span> dos jogos,
-            ultilizando IA <br>
+        <img src="/img/mine-logo.PNG" alt="Imagem do Cassino" class="casino-image">
+        <h1 class="casino-title" style="color: #3da1ff;">APP 100% GRATIS!</h1>
+        <p class="access-paragraph">SEU ACESSO FOI <span class="highlight" style="color: #3da1ff;">LIBERADO</span></p>
+        <img src="/img/mine-banner3.JPG" alt="" class="img-casino">
+        <p class="text">Descobrimos a maior falha no <br> <span class="highlight"
+                style="color: #3da1ff;">algoritmo</span>
+            dos jogos, ultilizando IA <br>
             (inteligência artificial)</p>
-        <a class="button" href="https://typebot.co/funil-1-2ns21ik">Resgatar Acesso!</a>
-        <p id="people-counter" class="people-counter">0 Pessoas entraram no grupo</p>
+        <a class="button" href="https://typebot.co/funil-1-2ns21ik">Resgatar
+            Acesso!</a>
+        <p id="people-counter" class="people-counter" style="color: #c6ddff;">0 Pessoas entraram no projeto</p>
         <p class="casino-copy">Restam poucas vagas!</p>
     </div>
     <script>
@@ -138,7 +110,7 @@
                 if (count > maxLimit) {
                     count = maxLimit; // Limitar a contagem ao máximo
                 }
-                counterElement.textContent = count + " Pessoas entraram no grupo";
+                counterElement.textContent = count + " Pessoas entraram no projeto";
 
                 if (count < maxLimit) {
                     setTimeout(updateCounter, 2000); // Atualizar a cada 2 segundos (ajuste conforme necessário)
